@@ -1,0 +1,247 @@
+/*----- SITE REALISE PAR JEREMY GENESTE
+        CONTACT: jeremy.geneste@gmail.com
+-----*/
+
+/*------ GENERAL CSS -----*/
+html {
+    scroll-behavior: smooth;
+}
+img {
+    height: auto;
+}
+.hideL, .hideR, .hideZ {
+    opacity: 0;
+}
+.row {
+    margin:0;
+}
+a {
+    text-decoration: none;
+    color:white;
+    transition: 0.5s;
+}
+a:hover {
+    text-decoration: none;
+    color:grey;
+}
+i {
+    transition: 0.5s;
+}
+i:hover {
+    color:grey;
+}
+h2 {
+    font-family: 'Rakkas', cursive;
+}
+section {  
+    margin-top: 2em;  
+    margin-bottom: 5em;
+}
+strong {
+    font-weight: inherit;
+}
+.hideL, .hideR, .hideZ {
+    opacity: 0;
+}
+/*----- HEADER NAV -----*/
+nav {
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+    font-weight: bold;
+    margin-bottom: 5%;
+    background-color: white;
+}
+#nav-top {
+    margin-left: 0.5%;
+    margin-right: 10%;
+    font-family: 'Rakkas', cursive;
+}
+.navbar-brand {
+    text-align: center;
+    font-size: 2em;
+    transition: 1s;
+}
+.navbar-brand::after {
+    content:"";
+    display: block;
+    width: 80%;
+    height: 0.10rem;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.logo-scrolled {
+    font-size: 1.5em;
+    transition: 1s;
+}
+.logo-caption-scrolled {
+    transition: 1s;
+   margin-left: 7%!important;
+}
+#nav-top>p {
+    font-size: 0.5em;
+    margin-left:15%;
+    transition: 1s;
+}
+#navbarNav {
+    font-weight: normal;
+}
+.nav-item {
+    margin-left:5em;
+}
+.nav-buttons {
+    margin-top:1%;
+}
+#social-nw {
+    font-size: 1.5em;
+    display: flex;
+    margin-left:6em;
+}
+@media screen and (max-width: 1480px) {
+    .navbar-brand {
+        margin-right:5%;
+    }
+    #social-nw {
+        margin-left:0;
+    }
+}
+@media screen and (max-width: 1295px) {
+    .nav-item {
+        margin-left:3.5em;
+    }
+    .navbar-brand {
+        margin-right:2%;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .nav-item {
+        margin-left:1em;
+    }
+    .navbar-brand {
+        margin-right:0;
+    }
+}
+
+#social-nw>a {
+    margin-left:0.2em;  
+    color:black;
+}
+/*----- INDEX -----*/
+.index-text>h1 {
+    text-transform: uppercase;
+    font-family: 'Rakkas';
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.index-text>h3 {
+    margin-bottom: 2.5em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.index-text>p {
+    line-height: 2em;
+    margin-bottom: 4em;
+}
+.index-text>a {
+    color:black;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.index-img {
+    max-width: 100%;
+}
+.img-hover:hover {
+    color:white;
+    opacity: 0.8;
+}
+/*----- A PROPOS -----*/
+.bio-title {
+    text-align: left;
+    font-family: 'Rakkas';
+    margin-bottom: 1em;
+    letter-spacing: 0.1em;
+}
+.bio-title::after {
+    content:"";
+    display: block;
+    width: 30%;
+    height: 0.10rem;
+    background-color: black;
+    margin-top: 1%;
+}
+article {
+    margin-bottom: 4em;
+}
+.bio-img {
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+/*-----REALISATION (CHECK GALERY.CSS FOR MORE)-----*/
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+/*----- CONTACT -----*/
+.contact>h2 {
+    margin-bottom: 2em;
+}
+.contact {
+    text-align: center;
+}
+.contact>p>a {
+    color:black;
+}
+.contact>a {
+    color:black !important;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 4em;
+}
+.contact>a:hover {
+    color:grey !important;
+}
+.social-nw-contact>a {
+    color:black;
+    font-size: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    line-height: 3em;
+}
+iframe {
+    width:100%;
+}
+
+/*----- FOOTER -----*/
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 1em;
+    margin-top: 2.5%;
+}
+#adresse {
+    margin-top:2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+}
+.social-nw-footer {
+    display: flex;
+    font-size: 3em;
+    color:white;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.social-nw-footer>a{
+    color:white;
+    margin-right: 1em;
+}
+
+#mentions {
+   text-align: center;
+    margin-top: 15%;
+} 
+
+
+
