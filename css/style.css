@@ -185,7 +185,7 @@ h3 {
 }
 /*----- CONTACT -----*/
 .contact>h2 {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .contact {
     text-align: center;
@@ -197,7 +197,7 @@ h3 {
     color:black !important;
     font-weight: bold;
     font-size: 1.3em;
-    line-height: 4em;
+    line-height: 2em;
 }
 .contact>a:hover {
     color:grey !important;
@@ -207,7 +207,7 @@ h3 {
     font-size: 4em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    line-height: 3em;
+    line-height: 2em;
 }
 iframe {
     width:100%;

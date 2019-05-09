@@ -30,9 +30,13 @@ h1::after {
   z-index: 1;
   margin-top:0.1em;
 }
+#portfolio-3 {
+  z-index: 1;
+  margin-top:0.1em;
+}
 .portfolio {
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   background: #ffffff;
   position: relative;
   display: grid;
@@ -40,12 +44,14 @@ h1::after {
   grid-template-rows: 1fr 1fr;
   grid-gap: 2px;
   z-index:2;
+  margin-bottom: 0;
 }
 
 .project {
   position: relative;
   background: #F2DAD7;
   overflow: hidden;
+  max-height: 100%;
 }
 .project img {
   position: absolute;

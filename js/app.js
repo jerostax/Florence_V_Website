@@ -52,7 +52,7 @@ $(document).ready(function(){
 
     });
     //Retire animations si écran plus petit que 500px
-    if($(window).innerWidth() < 500){
+    if($(window).innerWidth() < 1000){
         $('.hideL').removeClass('hideL');
         $('.hideR').removeClass('hideR');
         $('.hideZ').removeClass('hideZ');
