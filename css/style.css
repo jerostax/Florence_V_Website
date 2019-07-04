@@ -251,5 +251,11 @@ footer {
     margin-top: 15%;
 } 
 
+/*----- LEGACY -----*/
+
+#legacy>h2, #legacy>p {
+    text-align: center;
+}
+
 
 
